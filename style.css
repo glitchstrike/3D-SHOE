@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    perspective: 1000px;
+}
+ 
+.container{
+    width:50%;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.card{
+    transform-style:preserve-3d ;
+    width:40rem;
+    background: none;
+    border-radius: 30px;
+    padding: 0rem 3rem;
+    height:80vh;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+}
+ 
+.sneaker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+}
+ 
+.circle{
+    height:18rem;
+    width:18rem;
+    background: linear-gradient(to bottom, lightgreen , chocolate);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+ 
+.sneaker img{
+    width: 23rem;
+    z-index: 2;
+}
+
+.info h1{
+    font-size: 4rem;
+}
+
+.info h2{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.sizes{
+    display: flex;
+    justify-content:space-between;
+}
+
+.sizes button{
+    padding: 7px 30px;
+    border-radius: 30px;
+    border: none;
+    background: none;
+    background-color: white;
+    box-shadow: 0px 30px 10px gray,0px 0px 30px gray;
+}
+.sizes button:hover{
+    background-color: lawngreen;
+    text-decoration: underline;
+}
+.sizes .active{
+    background: gray;
+    color: white;
+}
+
+.purchase{
+    margin-top: 3rem;
+}
+
+.purchase button{
+    width: 100%;
+    padding: 15px 0px;
+    background: linear-gradient(to right, orange , yellow);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.purchase button:hover{
+    background: linear-gradient(to left, greenyellow ,darkgreen );
+    text-decoration: underline;
+}
+
+/* .sizes{
+    background-color: #ddd;
+  border: none;
+  color: black;
+  /* padding: 16px 32px; */
+  /* text-align: center; */
+  /* font-size: 16px; */
+  /* margin: 4px 2px; */
+  /*transition: 0.3s;
+}*/
+
+/* .button :hover{
+    color: pink;
+    background: greenyellow;
+     text-decoration: underline overline; 
+} */
+
